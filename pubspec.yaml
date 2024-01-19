@@ -1,0 +1,41 @@
+name: shivangi_s_application3
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=3.0.0 <4.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  provider: ^6.1.1
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  connectivity_plus: ^5.0.2
+  shared_preferences: ^2.2.2
+  intl: ^0.18.0
+dependency_overrides:
+  intl: any
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Ruda
+      fonts: 
+        - asset: assets/fonts/RudaBlack.ttf
+          weight: 900
+        - asset: assets/fonts/RudaExtraBold.ttf
+          weight: 800
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/RubikRomanRegular.ttf
+          weight: 400
+    - family: Rockwell Nova
+      fonts: 
+        - asset: assets/fonts/RockwellNova.ttf
+          weight: 400
