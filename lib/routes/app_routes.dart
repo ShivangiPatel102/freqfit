@@ -32,12 +32,12 @@ class AppRoutes {
 
   static Map<String, WidgetBuilder> get routes => {
         startscreenScreen: StartscreenScreen.builder,
-        getstartedscreenScreen: GetstartedscreenScreen.builder,
-        signupScreen: SignupScreen.builder,
+        // getstartedscreenScreen: GetstartedscreenScreen.builder,
+        // signupScreen: SignupScreen.builder,
         homescreenScreen: HomescreenScreen.builder,
         eartestScreen: EartestScreen.builder,
         airconductscreenScreen: AirconductscreenScreen.builder,
-        signinScreen: SigninScreen.builder,
+        // signinScreen: SigninScreen.builder,
         eartestresultsScreen: EartestresultsScreen.builder,
         appNavigationScreen: AppNavigationScreen.builder,
         initialRoute: StartscreenScreen.builder

@@ -81,7 +81,7 @@ class HomescreenScreenState extends State<HomescreenScreen> {
   /// Navigates to the airconductscreenScreen when the action is triggered.
   onTapTrialTestComponent(BuildContext context) {
     NavigatorService.pushNamed(
-      AppRoutes.airconductscreenScreen,
+      AppRoutes.eartestScreen,
     );
   }
 }
