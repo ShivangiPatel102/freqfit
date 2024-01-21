@@ -64,7 +64,7 @@ class EartestScreenState extends State<EartestScreen> {
                                         width: 20.adaptSize))),
                             SizedBox(height: 70.v),
                             _buildAirConductList(context),
-                            SizedBox(height: 33.v)
+                           // SizedBox(height: 33.v)
                           ]))
                     ]))));
   }

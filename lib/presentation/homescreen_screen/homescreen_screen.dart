@@ -46,7 +46,7 @@ class HomescreenScreenState extends State<HomescreenScreen> {
                                         style: theme.textTheme.displayMedium)),
                                 SizedBox(height: 45.v),
                                 _buildTrialTestComponentGrid(context),
-                                SizedBox(height: 27.v)
+                                //SizedBox(height: 27.v)
                               ]))
                     ]))));
   }
